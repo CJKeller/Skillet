@@ -28,6 +28,8 @@
 		2A6CD8FD1FCBDD550053A902 /* skilletLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8F91FCBDD540053A902 /* skilletLogo.png */; };
 		2A6CD8FE1FCBDD550053A902 /* profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8FA1FCBDD540053A902 /* profile_icon.png */; };
 		2A6CD9021FCBE8AA0053A902 /* vote_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD9011FCBE8A90053A902 /* vote_icon_2.png */; };
+		9AEE480C1FCC8EE50061178F /* VoterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */; };
+		9AEE480E1FCC8EF70061178F /* VoterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		2A6CD8FA1FCBDD540053A902 /* profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_icon.png; sourceTree = "<group>"; };
 		2A6CD9001FCBDDFB0053A902 /* bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bit.png; path = /Users/CKeller/Documents/Skillet/Skillet/Images/bit.png; sourceTree = "<absolute>"; };
 		2A6CD9011FCBE8A90053A902 /* vote_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote_icon_2.png; sourceTree = "<group>"; };
+		9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewController.swift; sourceTree = "<group>"; };
+		9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				2A5569951FBE7E0C009E0541 /* AppDelegate.swift */,
 				2A5569971FBE7E0C009E0541 /* ViewController.swift */,
 				2A5569991FBE7E0C009E0541 /* Main.storyboard */,
+				9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */,
+				9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */,
 				2A6CD8B01FCBD55B0053A902 /* ChallengeViewController.swift */,
 				2A55699F1FBE7E0C009E0541 /* Assets.xcassets */,
 				2A5569A11FBE7E0C009E0541 /* LaunchScreen.storyboard */,
@@ -210,7 +216,9 @@
 			files = (
 				2A5569981FBE7E0C009E0541 /* ViewController.swift in Sources */,
 				2A55699E1FBE7E0C009E0541 /* Skillet.xcdatamodeld in Sources */,
+				9AEE480C1FCC8EE50061178F /* VoterTableViewController.swift in Sources */,
 				2A6CD8B11FCBD55B0053A902 /* ChallengeViewController.swift in Sources */,
+				9AEE480E1FCC8EF70061178F /* VoterTableViewCell.swift in Sources */,
 				2A5569961FBE7E0C009E0541 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
