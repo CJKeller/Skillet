@@ -27,6 +27,7 @@
 		2A6CD8FC1FCBDD550053A902 /* skill.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8F81FCBDD540053A902 /* skill.png */; };
 		2A6CD8FD1FCBDD550053A902 /* skilletLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8F91FCBDD540053A902 /* skilletLogo.png */; };
 		2A6CD8FE1FCBDD550053A902 /* profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8FA1FCBDD540053A902 /* profile_icon.png */; };
+		2A6CD9021FCBE8AA0053A902 /* vote_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD9011FCBE8A90053A902 /* vote_icon_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		2A6CD8F91FCBDD540053A902 /* skilletLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skilletLogo.png; sourceTree = "<group>"; };
 		2A6CD8FA1FCBDD540053A902 /* profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_icon.png; sourceTree = "<group>"; };
 		2A6CD9001FCBDDFB0053A902 /* bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bit.png; path = /Users/CKeller/Documents/Skillet/Skillet/Images/bit.png; sourceTree = "<absolute>"; };
+		2A6CD9011FCBE8A90053A902 /* vote_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote_icon_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2A6CD8E21FCBD8FE0053A902 /* ClareY.png */,
 				2A6CD8E31FCBD8FE0053A902 /* MaxK.png */,
 				2A6CD8E71FCBD8FE0053A902 /* CailinC.png */,
+				2A6CD9011FCBE8A90053A902 /* vote_icon_2.png */,
 				2A6CD8E51FCBD8FE0053A902 /* IanJ.png */,
 				2A6CD8E91FCBD8FE0053A902 /* CJK.png */,
 				2A6CD8EC1FCBD8FE0053A902 /* AlexS.png */,
@@ -194,6 +197,7 @@
 				2A55699B1FBE7E0C009E0541 /* Main.storyboard in Resources */,
 				2A6CD8EE1FCBD8FE0053A902 /* MaxK.png in Resources */,
 				2A6CD8F01FCBD8FE0053A902 /* IanJ.png in Resources */,
+				2A6CD9021FCBE8AA0053A902 /* vote_icon_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
