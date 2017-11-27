@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Skillet.xcodeproj">
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/bit.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

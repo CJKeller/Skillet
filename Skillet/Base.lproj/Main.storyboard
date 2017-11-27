@@ -18,48 +18,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1O-9Z-UUc">
-                                <rect key="frame" x="146" y="325" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Friends"/>
-                                <connections>
-                                    <segue destination="Wf4-cO-J70" kind="show" id="fvr-eF-46q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fj-MY-hda">
                                 <rect key="frame" x="9" y="75" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="CailinC.png"/>
+                                <state key="normal" title="Cailin" image="CailinC.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="xBn-qE-rsv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cj8-NO-UXi">
                                 <rect key="frame" x="111" y="79" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="MaxK.png"/>
+                                <state key="normal" title="Max" image="MaxK.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="9QJ-oa-OLv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmA-ZM-iUp">
                                 <rect key="frame" x="7" y="207" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="IanJ.png"/>
+                                <state key="normal" title="Ian" image="IanJ.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="5Z2-NU-BMz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfP-jd-P7J">
                                 <rect key="frame" x="91" y="207" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="ClareY.png"/>
+                                <state key="normal" title="Clare" image="ClareY.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="R3i-3I-fh1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thw-I1-hET">
                                 <rect key="frame" x="199" y="77" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="CJK.png"/>
+                                <state key="normal" title="CJ" image="CJK.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="Va2-16-cEr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXh-3Q-6tV">
                                 <rect key="frame" x="179" y="205" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="PatO.png"/>
+                                <state key="normal" title="Pat" image="PatO.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="Dwg-Zg-zWa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxy-i2-tMq">
                                 <rect key="frame" x="265" y="207" width="81" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="AlexS.png"/>
+                                <state key="normal" title="Alex" image="AlexS.png"/>
+                                <connections>
+                                    <segue destination="Wf4-cO-J70" kind="show" id="M2w-9f-LuK"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W2s-XK-vQ9">
                                 <rect key="frame" x="36" y="397" width="266" height="153"/>
@@ -69,7 +82,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qVz-VA-Ssf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Challenge" id="J55-k0-MvI"/>
+                    <tabBarItem key="tabBarItem" title="Challenge" selectedImage="skill.png" id="J55-k0-MvI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfF-Gj-tCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -203,7 +216,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xd6-lX-gnU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="80w-It-4b5"/>
+                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="profile_icon.png" id="80w-It-4b5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACb-4r-MSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -244,7 +257,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="z0u-L9-boZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Vote" id="Cx3-iz-qHO"/>
+                    <tabBarItem key="tabBarItem" title="Vote" selectedImage="skill.png" id="Cx3-iz-qHO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1O-Lr-Veo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -313,21 +326,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai7-cX-XM1">
-                                <rect key="frame" x="87" y="152" width="181" height="130"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skillet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai7-cX-XM1">
+                                <rect key="frame" x="0.0" y="37" width="376" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="128"/>
+                                <color key="textColor" red="1" green="0.31408533547960082" blue="0.34748959882138464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yci-k2-kMB">
-                                <rect key="frame" x="92" y="335" width="157" height="78"/>
+                                <rect key="frame" x="127" y="529" width="157" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login "/>
                                 <connections>
                                     <segue destination="cdJ-My-KEM" kind="show" id="hJz-oY-AkL"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skilletLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="FyQ-e6-Ad1">
+                                <rect key="frame" x="1" y="201" width="372" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Become the Top Chef!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDY-0E-QFL">
+                                <rect key="frame" x="27" y="429" width="322" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.028586547141367546" blue="0.027676743586335872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KwM-mN-zsJ"/>
@@ -335,7 +359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G7D-TY-3jb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1697" y="100"/>
+            <point key="canvasLocation" x="-1698.4000000000001" y="99.400299850074973"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="l93-9f-mEj">
@@ -382,8 +406,12 @@
         <image name="IanJ.png" width="122" height="126"/>
         <image name="MaxK.png" width="116" height="152"/>
         <image name="PatO.png" width="110" height="146"/>
+        <image name="profile_icon.png" width="31" height="29"/>
+        <image name="skill.png" width="42" height="29"/>
+        <image name="skilletLogo.png" width="792" height="645"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U8a-sp-z9x"/>
+        <segue reference="Va2-16-cEr"/>
     </inferredMetricsTieBreakers>
 </document>
