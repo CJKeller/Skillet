@@ -82,7 +82,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qVz-VA-Ssf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Challenge" selectedImage="skill.png" id="J55-k0-MvI"/>
+                    <tabBarItem key="tabBarItem" title="Challenge" image="skill.png" id="J55-k0-MvI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfF-Gj-tCy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,7 +208,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xd6-lX-gnU"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="profile_icon.png" id="80w-It-4b5"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile_icon.png" id="80w-It-4b5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACb-4r-MSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
