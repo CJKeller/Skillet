@@ -270,31 +270,21 @@
             </objects>
             <point key="canvasLocation" x="1049" y="1388"/>
         </scene>
-        <!--Vote-->
-        <scene sceneID="sXh-OC-QIJ">
+        <!--View Controller-->
+        <scene sceneID="KyT-lC-mGE">
             <objects>
-                <viewController id="jid-r3-bWt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VjK-Zd-551">
+                <viewController id="UsX-CN-sml" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gqk-pQ-fcf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwu-cV-WYr">
-                                <rect key="frame" x="264" y="152" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Vote &gt;&gt;"/>
-                                <connections>
-                                    <segue destination="Kcw-Dk-O8q" kind="show" id="dix-c4-dPt"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="z0u-L9-boZ"/>
+                        <viewLayoutGuide key="safeArea" id="rAF-DQ-70l"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Vote" image="vote_icon_2.png" selectedImage="vote_icon_2.png" id="Cx3-iz-qHO"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L1O-Lr-Veo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egd-i1-ebI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1424.8" y="-972.86356821589209"/>
+            <point key="canvasLocation" x="2089" y="1388"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wdk-Vg-A7K">
@@ -317,6 +307,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoT-de-Kvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3960.8000000000002" y="-1009.7451274362819"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="j47-pr-W46">
+            <objects>
+                <tableViewController id="g7q-x3-f6j" customClass="VoterTableViewController" customModule="Skillet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fCD-K4-4K4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="qHY-ZW-8E5" customClass="VoterTableViewCell" customModule="Skillet" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qHY-ZW-8E5" id="kxc-oP-muL">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="vs." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ts-ew-3Us">
+                                            <rect key="frame" x="84" y="17" width="176" height="45"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                            <color key="textColor" red="1" green="0.24572604727451219" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zVK-tO-Heg">
+                                            <rect key="frame" x="16" y="-1" width="60" height="72"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Qf-5vf">
+                                            <rect key="frame" x="126" y="-1" width="60" height="72"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SI0-Py-8Ui">
+                                            <rect key="frame" x="252" y="24" width="100" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <state key="normal" title="Vote &gt;&gt;">
+                                                <color key="titleColor" red="1" green="0.26442846337956372" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="Kcw-Dk-O8q" kind="show" id="WZG-AH-rYq"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="name" destination="0ts-ew-3Us" id="Ofb-mG-CAC"/>
+                                    <outlet property="pic1" destination="zVK-tO-Heg" id="Xf1-d5-69r"/>
+                                    <outlet property="pic2" destination="yLg-Qf-5vf" id="dUg-Bn-cGM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="g7q-x3-f6j" id="E33-1Y-OO0"/>
+                            <outlet property="delegate" destination="g7q-x3-f6j" id="90h-kR-Vf0"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="NcD-KK-dTn"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bxn-e8-ej7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.5999999999999" y="-685.00749625187416"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="K0R-Bn-axm">
@@ -342,6 +394,14 @@
                                     <segue destination="cPw-jT-nsX" kind="show" id="Da8-JI-aPd"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bKG-9I-CE6">
+                                <rect key="frame" x="16" y="117" width="135" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6gU-hJ-yqR">
+                                <rect key="frame" x="225" y="117" width="120" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="p0O-ky-oX2"/>
@@ -349,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apU-hi-OvA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2306" y="-976"/>
+            <point key="canvasLocation" x="2304.8000000000002" y="-976.46176911544239"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P9S-2f-AjA">
@@ -405,9 +465,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="jid-r3-bWt" kind="relationship" relationship="viewControllers" id="dK2-iY-vii"/>
                         <segue destination="iKs-h6-CMz" kind="relationship" relationship="viewControllers" id="byf-q8-fDB"/>
                         <segue destination="6U1-2j-Zvv" kind="relationship" relationship="viewControllers" id="KRl-L1-b3Y"/>
+                        <segue destination="g7q-x3-f6j" kind="relationship" relationship="viewControllers" id="aXA-DQ-xG3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9a-SL-UfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -442,7 +502,6 @@
         <image name="profile_icon.png" width="31" height="29"/>
         <image name="skill.png" width="42" height="29"/>
         <image name="skilletLogo.png" width="792" height="645"/>
-        <image name="vote_icon_2.png" width="27" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="U8a-sp-z9x"/>

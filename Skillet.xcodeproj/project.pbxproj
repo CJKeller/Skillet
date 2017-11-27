@@ -213,7 +213,9 @@
 			files = (
 				2A5569981FBE7E0C009E0541 /* ViewController.swift in Sources */,
 				2A55699E1FBE7E0C009E0541 /* Skillet.xcdatamodeld in Sources */,
+				9AEE480C1FCC8EE50061178F /* VoterTableViewController.swift in Sources */,
 				2A6CD8B11FCBD55B0053A902 /* ChallengeViewController.swift in Sources */,
+				9AEE480E1FCC8EF70061178F /* VoterTableViewCell.swift in Sources */,
 				2A5569961FBE7E0C009E0541 /* AppDelegate.swift in Sources */,
 				2A6CD9091FCBF41C0053A902 /* PlayerViewController.swift in Sources */,
 			);
