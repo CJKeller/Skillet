@@ -8,17 +8,20 @@
 
 import UIKit
 
+let name1 = ["Clare", "Caillin", "Max", "CJ", "Ian", "Pat", "Alex", "CJ", "Max", "Caillin", "Ian"]
+let name2 = ["Max", "Clare", "Alex", "Pat", "Caillin", "Ian", "CJ", "Max", "Caillin", "Ian", "Pat"]
+let clare = UIImage(named: "ClareY")
+let caillin = UIImage(named: "CailinC")
+let max = UIImage(named: "MaxK")
+let cj = UIImage(named: "CJK")
+let pat = UIImage(named: "PatO")
+let alex = UIImage(named: "AlexS")
+let ian = UIImage(named: "IanJ")
+
+var myIndex = 0
+
 class VoterTableViewController: UITableViewController {
 
-    let name1 = ["Clare", "Caillin", "Max", "CJ", "Ian", "Pat", "Alex", "CJ", "Max", "Caillin", "Ian"]
-    let name2 = ["Max", "Clare", "Alex", "Pat", "Caillin", "Ian", "CJ", "Max", "Caillin", "Ian", "Pat"]
-    let clare = UIImage(named: "ClareY")
-    let caillin = UIImage(named: "CailinC")
-    let max = UIImage(named: "MaxK")
-    let cj = UIImage(named: "CJK")
-    let pat = UIImage(named: "PatO")
-    let alex = UIImage(named: "AlexS")
-    let ian = UIImage(named: "IanJ")
     
  
     override func viewDidLoad() {
@@ -48,11 +51,21 @@ class VoterTableViewController: UITableViewController {
         return name1.count
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+       // myIndex = indexPath.row
+       // performSegue(withIdentifier: "segue", sender: self)
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! VoterTableViewCell
-
+        let curTime = String(arc4random_uniform(23) + 1)
+       
+        
         cell.name.text = "vs."
+        cell.time.text = curTime + " hours left!"
+        cell.myButton.tag = indexPath.row
+        cell.myButton.addTarget(self, action: #selector(raceInfoBtn), for: .touchUpInside)
         cell.pic1.image = cj
         cell.pic2.image = pat
       
@@ -81,7 +94,11 @@ class VoterTableViewController: UITableViewController {
 
         return cell
     }
-    
+
+@IBAction func raceInfoBtn(_ sender: UIButton)
+{
+    myIndex = sender.tag
+}
 
     /*
     // Override to support conditional editing of the table view.
@@ -118,14 +135,19 @@ class VoterTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+  /*  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-    }
-    */
+        if segue.identifier == "voteScene"{
+            //Creating an object of the second View controller
+            let controller = segue.destinationViewController as! iOSTutorialsViewControllerClass
+            //Sending the data here
+            controller.SecondArray = sendSelectedData as! String
+    }*/
+ 
 
 }

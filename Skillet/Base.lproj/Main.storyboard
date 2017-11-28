@@ -249,10 +249,11 @@
         <scene sceneID="j47-pr-W46">
             <objects>
                 <tableViewController id="g7q-x3-f6j" customClass="VoterTableViewController" customModule="Skillet" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fCD-K4-4K4">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fCD-K4-4K4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="1" green="0.43068539950000001" blue="0.39560759709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="80" id="qHY-ZW-8E5" customClass="VoterTableViewCell" customModule="Skillet" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
@@ -265,34 +266,49 @@
                                             <rect key="frame" x="84" y="17" width="176" height="45"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                            <color key="textColor" red="1" green="0.24572604727451219" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="textColor" red="1" green="0.43068539950000001" blue="0.39560759709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zVK-tO-Heg">
-                                            <rect key="frame" x="16" y="-1" width="60" height="72"/>
+                                            <rect key="frame" x="16" y="3" width="60" height="72"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yLg-Qf-5vf">
-                                            <rect key="frame" x="126" y="-1" width="60" height="72"/>
+                                            <rect key="frame" x="126" y="3" width="60" height="72"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SI0-Py-8Ui">
-                                            <rect key="frame" x="252" y="24" width="100" height="30"/>
+                                            <rect key="frame" x="229" y="11" width="130" height="36"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="0.43068539947855411" blue="0.39560759711519011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                            <state key="normal" title="Vote &gt;&gt;">
-                                                <color key="titleColor" red="1" green="0.26442846337956372" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <state key="normal" title="Vote">
+                                                <color key="titleColor" red="1" green="0.98877267619999998" blue="0.98133382189999996" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="Kcw-Dk-O8q" kind="show" id="WZG-AH-rYq"/>
+                                                <segue destination="Kcw-Dk-O8q" kind="show" identifier="segue" id="WZG-AH-rYq"/>
                                             </connections>
                                         </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time Left" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-23-Jns">
+                                            <rect key="frame" x="233" y="54" width="123" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="0.43068539950000001" blue="0.39560759709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="myButton" destination="SI0-Py-8Ui" id="jJO-tp-g7D"/>
                                     <outlet property="name" destination="0ts-ew-3Us" id="Ofb-mG-CAC"/>
                                     <outlet property="pic1" destination="zVK-tO-Heg" id="Xf1-d5-69r"/>
                                     <outlet property="pic2" destination="yLg-Qf-5vf" id="dUg-Bn-cGM"/>
+                                    <outlet property="time" destination="U7e-23-Jns" id="ljJ-sD-P0Z"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -307,10 +323,10 @@
             </objects>
             <point key="canvasLocation" x="1197.5999999999999" y="-685.00749625187416"/>
         </scene>
-        <!--View Controller-->
+        <!--Voter View Controller-->
         <scene sceneID="K0R-Bn-axm">
             <objects>
-                <viewController id="Kcw-Dk-O8q" sceneMemberID="viewController">
+                <viewController id="Kcw-Dk-O8q" customClass="VoterViewController" customModule="Skillet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JNG-Sq-aOM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,6 +359,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="p0O-ky-oX2"/>
                     </view>
+                    <connections>
+                        <outlet property="pic1" destination="bKG-9I-CE6" id="LLh-ml-2FL"/>
+                        <outlet property="pic2" destination="6gU-hJ-yqR" id="4nY-5c-fzF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apU-hi-OvA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
