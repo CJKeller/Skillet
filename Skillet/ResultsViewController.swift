@@ -13,10 +13,10 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var results: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        if (left == false ) {
-            results.text = name2[myIndex]
-        } else {
+        if (left == true) {
             results.text = name1[myIndex]
+        } else {
+            results.text = name2[myIndex]
         }
         // Do any additional setup after loading the view.
     }
