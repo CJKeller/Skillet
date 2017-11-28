@@ -8,14 +8,34 @@
 
 import UIKit
 
+var left = true
+
 class VoterViewController: UIViewController {
 
     @IBOutlet weak var pic1: UIImageView!
     @IBOutlet weak var pic2: UIImageView!
     
+    @IBOutlet weak var challenge: UILabel!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    
+    @IBAction func setLeft(_ sender: UIButton)
+    {
+        left = true
+    }
+
+    @IBAction func setRight(_ sender: UIButton)
+    {
+        left = false
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        button1.addTarget(self, action: #selector(setLeft), for: .touchUpInside)
+        button2.addTarget(self, action: #selector(setRight), for: .touchUpInside)
         
+        challenge.text = name1[myIndex] + " vs. " + name2[myIndex]
         
         switch (name1[myIndex]) {
         case "Clare": pic1.image = clare;
@@ -27,6 +47,8 @@ class VoterViewController: UIViewController {
         case "Alex": pic1.image = alex;
         default: pic1.image = clare;
         }
+        
+        
         
         switch (name2[myIndex]) {
         case "Clare": pic2.image = clare;
