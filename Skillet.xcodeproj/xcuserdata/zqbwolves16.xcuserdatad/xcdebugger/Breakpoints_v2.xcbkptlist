@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Skillet/VoterViewController.swift"
+            timestampString = "533536268.02526"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "VoterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skillet.VoterViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Skillet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zqbwolves16/Documents/Skillet/Skillet/VoterViewController.swift"
+                  timestampString = "533529868.140537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "926">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skillet.VoterViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Skillet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zqbwolves16/Documents/Skillet/Skillet/VoterViewController.swift"
+                  timestampString = "533529868.14437"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "2122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Skillet/VoterViewController.swift"
+            timestampString = "533536268.026124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setRight(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skillet.VoterViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Skillet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zqbwolves16/Documents/Skillet/Skillet/VoterViewController.swift"
+                  timestampString = "533529870.80806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "6609">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skillet.VoterViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Skillet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zqbwolves16/Documents/Skillet/Skillet/VoterViewController.swift"
+                  timestampString = "533529870.810125"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "7786">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
