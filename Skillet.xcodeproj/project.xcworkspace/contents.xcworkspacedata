@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/sliders.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/Steak.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/Sushi.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/Teriyaki-Chicken-Recipe.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/Teriyaki-Sauce.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/veggiePasta.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/CKeller/Documents/Skillet/Skillet/Images/vote_icon.png">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
