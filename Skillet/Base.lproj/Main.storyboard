@@ -173,11 +173,11 @@
                                     <segue destination="g7q-x3-f6j" kind="show" id="20w-gS-bON"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snL-Bc-8jz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snL-Bc-8jz">
                                 <rect key="frame" x="101" y="79" width="184" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="1" green="0.43068539950000001" blue="0.39560759709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -295,22 +295,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACb-4r-MSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1049" y="1388"/>
-        </scene>
-        <!--Vote-->
-        <scene sceneID="KyT-lC-mGE">
-            <objects>
-                <viewController id="UsX-CN-sml" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Gqk-pQ-fcf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="rAF-DQ-70l"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Vote" image="vote_icon_2.png" selectedImage="vote_icon_2.png" id="Cx3-iz-qHO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="egd-i1-ebI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2089" y="1388"/>
         </scene>
         <!--Vote-->
         <scene sceneID="j47-pr-W46">
@@ -565,10 +549,9 @@
         <image name="skilletLogo.png" width="792" height="645"/>
         <image name="sliders.png" width="143" height="141"/>
         <image name="veggiePasta.png" width="138" height="148"/>
-        <image name="vote_icon_2.png" width="27" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aXA-DQ-xG3"/>
+        <segue reference="20w-gS-bON"/>
         <segue reference="q1m-Al-kBV"/>
         <segue reference="Va2-16-cEr"/>
     </inferredMetricsTieBreakers>

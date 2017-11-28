@@ -11,10 +11,6 @@
 		2A3D7AB11FCCBF0F002529B5 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AAC1FCCBF0E002529B5 /* fish.png */; };
 		2A3D7AB21FCCBF0F002529B5 /* redpan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AAD1FCCBF0F002529B5 /* redpan.jpg */; };
 		2A3D7AB41FCCBF0F002529B5 /* drumstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AAF1FCCBF0F002529B5 /* drumstick.png */; };
-		2A3D7AB81FCCC5E8002529B5 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AB51FCCC5E7002529B5 /* vote.png */; };
-		2A3D7AB91FCCC5E8002529B5 /* vote_iconBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AB61FCCC5E7002529B5 /* vote_iconBIG.png */; };
-		2A3D7ABA1FCCC5E8002529B5 /* pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AB71FCCC5E7002529B5 /* pasta.png */; };
-		2A3D7ABC1FCCCB85002529B5 /* PastawithClam.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7ABB1FCCCB85002529B5 /* PastawithClam.png */; };
 		2A5569961FBE7E0C009E0541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5569951FBE7E0C009E0541 /* AppDelegate.swift */; };
 		2A5569981FBE7E0C009E0541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5569971FBE7E0C009E0541 /* ViewController.swift */; };
 		2A55699B1FBE7E0C009E0541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5569991FBE7E0C009E0541 /* Main.storyboard */; };
@@ -52,7 +48,6 @@
 		9AE5EC631FCD23D9002BBEB5 /* Teriyaki-Chicken-Recipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC581FCD23D8002BBEB5 /* Teriyaki-Chicken-Recipe.jpg */; };
 		9AE5EC641FCD23D9002BBEB5 /* Sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC591FCD23D9002BBEB5 /* Sushi.png */; };
 		9AE5EC661FCD2427002BBEB5 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC651FCD2426002BBEB5 /* vote.png */; };
-		9AE5EC681FCD24A3002BBEB5 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC671FCD24A3002BBEB5 /* Images */; };
 		9AFDCE861FCCADEC00BC6793 /* VoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDCE851FCCADEC00BC6793 /* VoterViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -109,7 +104,7 @@
 		9AE5EC581FCD23D8002BBEB5 /* Teriyaki-Chicken-Recipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Teriyaki-Chicken-Recipe.jpg"; sourceTree = "<group>"; };
 		9AE5EC591FCD23D9002BBEB5 /* Sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sushi.png; sourceTree = "<group>"; };
 		9AE5EC651FCD2426002BBEB5 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
-		9AE5EC671FCD24A3002BBEB5 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; sourceTree = "<group>"; };
+		9AE5EC671FCD24A3002BBEB5 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewController.swift; sourceTree = "<group>"; };
 		9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewCell.swift; sourceTree = "<group>"; };
 		9AFDCE851FCCADEC00BC6793 /* VoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterViewController.swift; sourceTree = "<group>"; };
@@ -282,7 +277,6 @@
 				2A6CD8ED1FCBD8FE0053A902 /* ClareY.png in Resources */,
 				2A3D7AB41FCCBF0F002529B5 /* drumstick.png in Resources */,
 				9AE5EC601FCD23D9002BBEB5 /* vote.png in Resources */,
-				2A3D7AB81FCCC5E8002529B5 /* vote.png in Resources */,
 				2A5569A31FBE7E0C009E0541 /* LaunchScreen.storyboard in Resources */,
 				9AE5EC5E1FCD23D9002BBEB5 /* sliders.png in Resources */,
 				2A6CD8F21FCBD8FE0053A902 /* CailinC.png in Resources */,
@@ -292,24 +286,20 @@
 				9A309C0D1FCD017900B8AC20 /* PizzaSupreme.png in Resources */,
 				9AE5EC611FCD23D9002BBEB5 /* veggiePasta.png in Resources */,
 				9AE5EC631FCD23D9002BBEB5 /* Teriyaki-Chicken-Recipe.jpg in Resources */,
-				9AE5EC681FCD24A3002BBEB5 /* Images in Resources */,
 				2A6CD8FD1FCBDD550053A902 /* skilletLogo.png in Resources */,
 				9AE5EC661FCD2427002BBEB5 /* vote.png in Resources */,
 				2A5569A01FBE7E0C009E0541 /* Assets.xcassets in Resources */,
 				9A309C0C1FCD017900B8AC20 /* PizzaBarbeque.png in Resources */,
 				2A6CD8EF1FCBD8FE0053A902 /* bob.jpg in Resources */,
 				9AE5EC5A1FCD23D9002BBEB5 /* vote_iconBIG.png in Resources */,
-				2A3D7ABA1FCCC5E8002529B5 /* pasta.png in Resources */,
 				2A6CD8FC1FCBDD550053A902 /* skill.png in Resources */,
 				2A6CD8F61FCBD8FE0053A902 /* PatO.png in Resources */,
 				2A3D7AB01FCCBF0F002529B5 /* raw_chicken.jpg in Resources */,
 				9AE5EC5B1FCD23D9002BBEB5 /* Teriyaki-Sauce.jpg in Resources */,
-				2A3D7ABC1FCCCB85002529B5 /* PastawithClam.png in Resources */,
 				2A3D7AB11FCCBF0F002529B5 /* fish.png in Resources */,
 				9AE5EC5F1FCD23D9002BBEB5 /* pasta.png in Resources */,
 				9AE5EC5D1FCD23D9002BBEB5 /* PastawithClam.png in Resources */,
 				2A6CD8F71FCBD8FE0053A902 /* AlexS.png in Resources */,
-				2A3D7AB91FCCC5E8002529B5 /* vote_iconBIG.png in Resources */,
 				2A3D7AB21FCCBF0F002529B5 /* redpan.jpg in Resources */,
 				9AE5EC5C1FCD23D9002BBEB5 /* bit.png in Resources */,
 				2A6CD8F31FCBD8FE0053A902 /* jill.jpg in Resources */,
