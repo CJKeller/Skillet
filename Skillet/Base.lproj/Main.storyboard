@@ -558,17 +558,17 @@
         <image name="PatO.png" width="110" height="146"/>
         <image name="PizzaBarbeque.png" width="1538" height="776"/>
         <image name="PizzaSupreme.png" width="1538" height="776"/>
+        <image name="Sushi.png" width="146" height="149"/>
         <image name="profile_icon.png" width="31" height="29"/>
         <image name="redpan.jpg" width="500" height="500"/>
         <image name="skill.png" width="42" height="29"/>
         <image name="skilletLogo.png" width="792" height="645"/>
         <image name="sliders.png" width="143" height="141"/>
         <image name="veggiePasta.png" width="138" height="148"/>
-        <image name="vote.png" width="30" height="31"/>
         <image name="vote_icon_2.png" width="27" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="20w-gS-bON"/>
+        <segue reference="aXA-DQ-xG3"/>
         <segue reference="q1m-Al-kBV"/>
         <segue reference="Va2-16-cEr"/>
     </inferredMetricsTieBreakers>
