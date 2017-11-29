@@ -60,7 +60,7 @@ class VoterTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! VoterTableViewCell
         let curTime = String(arc4random_uniform(23) + 1)
-       
+        cell.selectionStyle = .none
         
         cell.name.text = "vs."
         cell.time.text = curTime + " hours left!"
