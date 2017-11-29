@@ -8,15 +8,6 @@
 
 import UIKit
 
-let name1 = ["Clare", "Caillin", "Max", "CJ", "Ian", "Pat", "Alex", "CJ", "Max", "Caillin", "Ian"]
-let name2 = ["Max", "Clare", "Alex", "Pat", "Caillin", "Ian", "CJ", "Max", "Caillin", "Ian", "Pat"]
-let clare = UIImage(named: "ClareY")
-let caillin = UIImage(named: "CailinC")
-let max = UIImage(named: "MaxK")
-let cj = UIImage(named: "CJK")
-let pat = UIImage(named: "PatO")
-let alex = UIImage(named: "AlexS")
-let ian = UIImage(named: "IanJ")
 
 var myIndex = 0
 

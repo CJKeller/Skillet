@@ -12,13 +12,13 @@ var left = true
 
 class VoterViewController: UIViewController {
 
-    @IBOutlet weak var pic1: UIImageView!
-    @IBOutlet weak var pic2: UIImageView!
-    
     @IBOutlet weak var challenge: UILabel!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var pic1: UIImageView!
+    @IBOutlet weak var pic2: UIImageView!
     
+    @IBOutlet weak var challenge2: UILabel!
     @IBAction func setLeft(_ sender: UIButton)
     {
         left = true
@@ -34,9 +34,13 @@ class VoterViewController: UIViewController {
         super.viewDidLoad()
         button1.addTarget(self, action: #selector(setLeft), for: .touchUpInside)
         button2.addTarget(self, action: #selector(setRight), for: .touchUpInside)
+     
+        let red = UIColor(red: 255.0/255.0, green: 110.0/255.0, blue: 92.0/255.0, alpha: 1.0)
+        button1.layer.borderColor = red.cgColor
+        button2.layer.borderColor = red.cgColor
         
-        challenge.text = name1[myIndex] + " vs. " + name2[myIndex]
-        
+        challenge.text = name1[myIndex] 
+        challenge2.text = name2[myIndex]
         switch (name1[myIndex]) {
         case "Clare": pic1.image = clare;
         case "Caillin": pic1.image = caillin;
