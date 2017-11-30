@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A14DE421FCFBF4100BAB885 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14DE411FCFBF4100BAB885 /* CameraViewController.swift */; };
+		2A14DE441FCFBF5900BAB885 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14DE431FCFBF5900BAB885 /* CaptureViewController.swift */; };
+		2A3D7AB11FCCBF0F002529B5 /* fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AAC1FCCBF0E002529B5 /* fish.png */; };
+		2A3D7AB41FCCBF0F002529B5 /* drumstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A3D7AAF1FCCBF0F002529B5 /* drumstick.png */; };
+		2A5569961FBE7E0C009E0541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5569951FBE7E0C009E0541 /* AppDelegate.swift */; };
+		2A5569981FBE7E0C009E0541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5569971FBE7E0C009E0541 /* ViewController.swift */; };
+		2A55699B1FBE7E0C009E0541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5569991FBE7E0C009E0541 /* Main.storyboard */; };
+		2A55699E1FBE7E0C009E0541 /* Skillet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A55699C1FBE7E0C009E0541 /* Skillet.xcdatamodeld */; };
+		2A5569A01FBE7E0C009E0541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A55699F1FBE7E0C009E0541 /* Assets.xcassets */; };
+		2A5569A31FBE7E0C009E0541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5569A11FBE7E0C009E0541 /* LaunchScreen.storyboard */; };
+		2A6CD8B11FCBD55B0053A902 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6CD8B01FCBD55B0053A902 /* ChallengeViewController.swift */; };
+		2A6CD8ED1FCBD8FE0053A902 /* ClareY.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8E21FCBD8FE0053A902 /* ClareY.png */; };
+		2A6CD8EE1FCBD8FE0053A902 /* MaxK.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8E31FCBD8FE0053A902 /* MaxK.png */; };
+		2A6CD8F01FCBD8FE0053A902 /* IanJ.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8E51FCBD8FE0053A902 /* IanJ.png */; };
+		2A6CD8F21FCBD8FE0053A902 /* CailinC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8E71FCBD8FE0053A902 /* CailinC.png */; };
+		2A6CD8F41FCBD8FE0053A902 /* CJK.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8E91FCBD8FE0053A902 /* CJK.png */; };
+		2A6CD8F51FCBD8FE0053A902 /* PicCailin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8EA1FCBD8FE0053A902 /* PicCailin.jpg */; };
+		2A6CD8F61FCBD8FE0053A902 /* PatO.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8EB1FCBD8FE0053A902 /* PatO.png */; };
+		2A6CD8F71FCBD8FE0053A902 /* AlexS.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8EC1FCBD8FE0053A902 /* AlexS.png */; };
+		2A6CD8FC1FCBDD550053A902 /* skill.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8F81FCBDD540053A902 /* skill.png */; };
+		2A6CD8FD1FCBDD550053A902 /* skilletLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8F91FCBDD540053A902 /* skilletLogo.png */; };
+		2A6CD8FE1FCBDD550053A902 /* profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6CD8FA1FCBDD540053A902 /* profile_icon.png */; };
+		9A095EA71FCE944F001F9BC1 /* redpan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095E9A1FCE9444001F9BC1 /* redpan.jpg */; };
+		9A095EA81FCE944F001F9BC1 /* jill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095E9B1FCE9445001F9BC1 /* jill.jpg */; };
+		9A095EAC1FCE944F001F9BC1 /* Teriyaki-Sauce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095E9F1FCE9449001F9BC1 /* Teriyaki-Sauce.jpg */; };
+		9A095EAF1FCE944F001F9BC1 /* raw_chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EA21FCE944B001F9BC1 /* raw_chicken.jpg */; };
+		9A095EB11FCE944F001F9BC1 /* Teriyaki-Chicken-Recipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EA41FCE944D001F9BC1 /* Teriyaki-Chicken-Recipe.jpg */; };
+		9A095EB21FCE944F001F9BC1 /* Steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EA51FCE944D001F9BC1 /* Steak.jpg */; };
+		9A095EB31FCE944F001F9BC1 /* bob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EA61FCE944E001F9BC1 /* bob.jpg */; };
+		9A095EBC1FCE95E1001F9BC1 /* clareBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB41FCE95D9001F9BC1 /* clareBig.png */; };
+		9A095EBD1FCE95E1001F9BC1 /* ianBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB51FCE95DA001F9BC1 /* ianBig.png */; };
+		9A095EBE1FCE95E1001F9BC1 /* bobBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB61FCE95DB001F9BC1 /* bobBig.png */; };
+		9A095EBF1FCE95E1001F9BC1 /* alexBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB71FCE95DC001F9BC1 /* alexBig.png */; };
+		9A095EC01FCE95E1001F9BC1 /* joeBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB81FCE95DD001F9BC1 /* joeBig.png */; };
+		9A095EC11FCE95E1001F9BC1 /* patBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EB91FCE95DE001F9BC1 /* patBig.png */; };
+		9A095EC21FCE95E1001F9BC1 /* maxBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EBA1FCE95DF001F9BC1 /* maxBig.png */; };
+		9A095EC31FCE95E1001F9BC1 /* caillinBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EBB1FCE95E0001F9BC1 /* caillinBig.png */; };
+		9A095EC51FCE9685001F9BC1 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EC41FCE9684001F9BC1 /* Settings.png */; };
+		9A095EC71FCE9873001F9BC1 /* settingicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A095EC61FCE9872001F9BC1 /* settingicon.png */; };
+		9A309C0C1FCD017900B8AC20 /* PizzaBarbeque.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A309C0A1FCD017700B8AC20 /* PizzaBarbeque.png */; };
+		9A309C0D1FCD017900B8AC20 /* PizzaSupreme.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A309C0B1FCD017800B8AC20 /* PizzaSupreme.png */; };
+		9A4755A41FCE6CD600F288A0 /* votetab.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A4755A31FCE6CD500F288A0 /* votetab.png */; };
+		9AAED31E1FCE7F4E0036D7BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAED31D1FCE7F4E0036D7BA /* LoginViewController.swift */; };
+		9AAED32A1FCE822C0036D7BA /* cjBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAED3221FCE82290036D7BA /* cjBig.png */; };
+		9AAED3321FCE83270036D7BA /* joeB.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAED3311FCE83270036D7BA /* joeB.png */; };
+		9AAED3341FCE858C0036D7BA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAED3331FCE858C0036D7BA /* ProfileViewController.swift */; };
+		9AE5EC321FCD1D2F002BBEB5 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5EC311FCD1D2F002BBEB5 /* ResultsViewController.swift */; };
+		9AE5EC4D1FCD2356002BBEB5 /* VoterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */; };
+		9AE5EC4E1FCD2358002BBEB5 /* VoterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */; };
+		9AE5EC5A1FCD23D9002BBEB5 /* vote_iconBIG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC4F1FCD23D5002BBEB5 /* vote_iconBIG.png */; };
+		9AE5EC5C1FCD23D9002BBEB5 /* bit.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC511FCD23D6002BBEB5 /* bit.png */; };
+		9AE5EC5D1FCD23D9002BBEB5 /* PastawithClam.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC521FCD23D6002BBEB5 /* PastawithClam.png */; };
+		9AE5EC5E1FCD23D9002BBEB5 /* sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC531FCD23D6002BBEB5 /* sliders.png */; };
+		9AE5EC5F1FCD23D9002BBEB5 /* pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC541FCD23D7002BBEB5 /* pasta.png */; };
+		9AE5EC601FCD23D9002BBEB5 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC551FCD23D7002BBEB5 /* vote.png */; };
+		9AE5EC611FCD23D9002BBEB5 /* veggiePasta.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC561FCD23D8002BBEB5 /* veggiePasta.png */; };
+		9AE5EC641FCD23D9002BBEB5 /* Sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC591FCD23D9002BBEB5 /* Sushi.png */; };
+		9AE5EC661FCD2427002BBEB5 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5EC651FCD2426002BBEB5 /* vote.png */; };
+		9AFDCE861FCCADEC00BC6793 /* VoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDCE851FCCADEC00BC6793 /* VoterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A14DE411FCFBF4100BAB885 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Skillet/CameraViewController.swift; sourceTree = SOURCE_ROOT; };
+		2A14DE431FCFBF5900BAB885 /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		2A3D7AAC1FCCBF0E002529B5 /* fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish.png; sourceTree = "<group>"; };
+		2A3D7AAF1FCCBF0F002529B5 /* drumstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drumstick.png; sourceTree = "<group>"; };
+		2A3D7AB51FCCC5E7002529B5 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
+		2A3D7AB61FCCC5E7002529B5 /* vote_iconBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote_iconBIG.png; sourceTree = "<group>"; };
+		2A3D7AB71FCCC5E7002529B5 /* pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasta.png; sourceTree = "<group>"; };
+		2A3D7ABB1FCCCB85002529B5 /* PastawithClam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastawithClam.png; sourceTree = "<group>"; };
+		2A5569921FBE7E0C009E0541 /* Skillet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5569951FBE7E0C009E0541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A5569971FBE7E0C009E0541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A55699A1FBE7E0C009E0541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A55699D1FBE7E0C009E0541 /* Skillet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skillet.xcdatamodel; sourceTree = "<group>"; };
+		2A55699F1FBE7E0C009E0541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5569A21FBE7E0C009E0541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A5569A41FBE7E0C009E0541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6CD8B01FCBD55B0053A902 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		2A6CD8E21FCBD8FE0053A902 /* ClareY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClareY.png; sourceTree = "<group>"; };
+		2A6CD8E31FCBD8FE0053A902 /* MaxK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaxK.png; sourceTree = "<group>"; };
+		2A6CD8E51FCBD8FE0053A902 /* IanJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IanJ.png; sourceTree = "<group>"; };
+		2A6CD8E71FCBD8FE0053A902 /* CailinC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CailinC.png; sourceTree = "<group>"; };
+		2A6CD8E91FCBD8FE0053A902 /* CJK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CJK.png; sourceTree = "<group>"; };
+		2A6CD8EA1FCBD8FE0053A902 /* PicCailin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PicCailin.jpg; sourceTree = "<group>"; };
+		2A6CD8EB1FCBD8FE0053A902 /* PatO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PatO.png; sourceTree = "<group>"; };
+		2A6CD8EC1FCBD8FE0053A902 /* AlexS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AlexS.png; sourceTree = "<group>"; };
+		2A6CD8F81FCBDD540053A902 /* skill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skill.png; sourceTree = "<group>"; };
+		2A6CD8F91FCBDD540053A902 /* skilletLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skilletLogo.png; sourceTree = "<group>"; };
+		2A6CD8FA1FCBDD540053A902 /* profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_icon.png; sourceTree = "<group>"; };
+		9A095E9A1FCE9444001F9BC1 /* redpan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redpan.jpg; sourceTree = "<group>"; };
+		9A095E9B1FCE9445001F9BC1 /* jill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jill.jpg; sourceTree = "<group>"; };
+		9A095E9F1FCE9449001F9BC1 /* Teriyaki-Sauce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Teriyaki-Sauce.jpg"; sourceTree = "<group>"; };
+		9A095EA21FCE944B001F9BC1 /* raw_chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = raw_chicken.jpg; sourceTree = "<group>"; };
+		9A095EA41FCE944D001F9BC1 /* Teriyaki-Chicken-Recipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Teriyaki-Chicken-Recipe.jpg"; sourceTree = "<group>"; };
+		9A095EA51FCE944D001F9BC1 /* Steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Steak.jpg; sourceTree = "<group>"; };
+		9A095EA61FCE944E001F9BC1 /* bob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bob.jpg; sourceTree = "<group>"; };
+		9A095EB41FCE95D9001F9BC1 /* clareBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clareBig.png; sourceTree = "<group>"; };
+		9A095EB51FCE95DA001F9BC1 /* ianBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ianBig.png; sourceTree = "<group>"; };
+		9A095EB61FCE95DB001F9BC1 /* bobBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bobBig.png; sourceTree = "<group>"; };
+		9A095EB71FCE95DC001F9BC1 /* alexBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alexBig.png; sourceTree = "<group>"; };
+		9A095EB81FCE95DD001F9BC1 /* joeBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joeBig.png; sourceTree = "<group>"; };
+		9A095EB91FCE95DE001F9BC1 /* patBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patBig.png; sourceTree = "<group>"; };
+		9A095EBA1FCE95DF001F9BC1 /* maxBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxBig.png; sourceTree = "<group>"; };
+		9A095EBB1FCE95E0001F9BC1 /* caillinBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caillinBig.png; sourceTree = "<group>"; };
+		9A095EC41FCE9684001F9BC1 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		9A095EC61FCE9872001F9BC1 /* settingicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingicon.png; sourceTree = "<group>"; };
+		9A309C0A1FCD017700B8AC20 /* PizzaBarbeque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaBarbeque.png; sourceTree = "<group>"; };
+		9A309C0B1FCD017800B8AC20 /* PizzaSupreme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PizzaSupreme.png; sourceTree = "<group>"; };
+		9A4755A31FCE6CD500F288A0 /* votetab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = votetab.png; sourceTree = "<group>"; };
+		9AAED31D1FCE7F4E0036D7BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AAED3221FCE82290036D7BA /* cjBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cjBig.png; sourceTree = "<group>"; };
+		9AAED3311FCE83270036D7BA /* joeB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joeB.png; sourceTree = "<group>"; };
+		9AAED3331FCE858C0036D7BA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9AE5EC311FCD1D2F002BBEB5 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		9AE5EC4F1FCD23D5002BBEB5 /* vote_iconBIG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote_iconBIG.png; sourceTree = "<group>"; };
+		9AE5EC511FCD23D6002BBEB5 /* bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bit.png; sourceTree = "<group>"; };
+		9AE5EC521FCD23D6002BBEB5 /* PastawithClam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PastawithClam.png; sourceTree = "<group>"; };
+		9AE5EC531FCD23D6002BBEB5 /* sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliders.png; sourceTree = "<group>"; };
+		9AE5EC541FCD23D7002BBEB5 /* pasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pasta.png; sourceTree = "<group>"; };
+		9AE5EC551FCD23D7002BBEB5 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
+		9AE5EC561FCD23D8002BBEB5 /* veggiePasta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = veggiePasta.png; sourceTree = "<group>"; };
+		9AE5EC591FCD23D9002BBEB5 /* Sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sushi.png; sourceTree = "<group>"; };
+		9AE5EC651FCD2426002BBEB5 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
+		9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewController.swift; sourceTree = "<group>"; };
+		9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterTableViewCell.swift; sourceTree = "<group>"; };
+		9AFDCE851FCCADEC00BC6793 /* VoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A55698F1FBE7E0C009E0541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5569891FBE7E0C009E0541 = {
+			isa = PBXGroup;
+			children = (
+				2A5569941FBE7E0C009E0541 /* Skillet */,
+				2A5569931FBE7E0C009E0541 /* Products */,
+				9AE5EC4C1FCD2344002BBEB5 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5569931FBE7E0C009E0541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5569921FBE7E0C009E0541 /* Skillet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5569941FBE7E0C009E0541 /* Skillet */ = {
+			isa = PBXGroup;
+			children = (
+				2A5569951FBE7E0C009E0541 /* AppDelegate.swift */,
+				2A14DE411FCFBF4100BAB885 /* CameraViewController.swift */,
+				2A14DE431FCFBF5900BAB885 /* CaptureViewController.swift */,
+				2A5569971FBE7E0C009E0541 /* ViewController.swift */,
+				2A5569991FBE7E0C009E0541 /* Main.storyboard */,
+				9AAED31D1FCE7F4E0036D7BA /* LoginViewController.swift */,
+				9AE5EC311FCD1D2F002BBEB5 /* ResultsViewController.swift */,
+				9AFDCE851FCCADEC00BC6793 /* VoterViewController.swift */,
+				9AEE480D1FCC8EF70061178F /* VoterTableViewCell.swift */,
+				9AEE480B1FCC8EE50061178F /* VoterTableViewController.swift */,
+				2A6CD8B01FCBD55B0053A902 /* ChallengeViewController.swift */,
+				9AAED3331FCE858C0036D7BA /* ProfileViewController.swift */,
+				2A55699F1FBE7E0C009E0541 /* Assets.xcassets */,
+				2A5569A11FBE7E0C009E0541 /* LaunchScreen.storyboard */,
+				2A5569A41FBE7E0C009E0541 /* Info.plist */,
+				2A55699C1FBE7E0C009E0541 /* Skillet.xcdatamodeld */,
+				2A6CD8E11FCBD8FE0053A902 /* Images */,
+			);
+			path = Skillet;
+			sourceTree = "<group>";
+		};
+		2A6CD8E11FCBD8FE0053A902 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9A095EC61FCE9872001F9BC1 /* settingicon.png */,
+				9A095EC41FCE9684001F9BC1 /* Settings.png */,
+				9A095EB71FCE95DC001F9BC1 /* alexBig.png */,
+				9A095EB61FCE95DB001F9BC1 /* bobBig.png */,
+				9A095EBB1FCE95E0001F9BC1 /* caillinBig.png */,
+				9A095EB41FCE95D9001F9BC1 /* clareBig.png */,
+				9A095EB51FCE95DA001F9BC1 /* ianBig.png */,
+				9A095EB81FCE95DD001F9BC1 /* joeBig.png */,
+				9A095EBA1FCE95DF001F9BC1 /* maxBig.png */,
+				9A095EB91FCE95DE001F9BC1 /* patBig.png */,
+				9A095EA61FCE944E001F9BC1 /* bob.jpg */,
+				9A095E9B1FCE9445001F9BC1 /* jill.jpg */,
+				9A095EA21FCE944B001F9BC1 /* raw_chicken.jpg */,
+				9A095E9A1FCE9444001F9BC1 /* redpan.jpg */,
+				9A095EA51FCE944D001F9BC1 /* Steak.jpg */,
+				9A095EA41FCE944D001F9BC1 /* Teriyaki-Chicken-Recipe.jpg */,
+				9A095E9F1FCE9449001F9BC1 /* Teriyaki-Sauce.jpg */,
+				9AAED3311FCE83270036D7BA /* joeB.png */,
+				9AAED3221FCE82290036D7BA /* cjBig.png */,
+				9A4755A31FCE6CD500F288A0 /* votetab.png */,
+				9AE5EC651FCD2426002BBEB5 /* vote.png */,
+				9AE5EC511FCD23D6002BBEB5 /* bit.png */,
+				9AE5EC541FCD23D7002BBEB5 /* pasta.png */,
+				9AE5EC521FCD23D6002BBEB5 /* PastawithClam.png */,
+				9AE5EC531FCD23D6002BBEB5 /* sliders.png */,
+				9AE5EC591FCD23D9002BBEB5 /* Sushi.png */,
+				9AE5EC561FCD23D8002BBEB5 /* veggiePasta.png */,
+				9AE5EC4F1FCD23D5002BBEB5 /* vote_iconBIG.png */,
+				9AE5EC551FCD23D7002BBEB5 /* vote.png */,
+				9A309C0A1FCD017700B8AC20 /* PizzaBarbeque.png */,
+				9A309C0B1FCD017800B8AC20 /* PizzaSupreme.png */,
+				2A6CD8E21FCBD8FE0053A902 /* ClareY.png */,
+				2A6CD8E31FCBD8FE0053A902 /* MaxK.png */,
+				2A6CD8E71FCBD8FE0053A902 /* CailinC.png */,
+				2A6CD8E51FCBD8FE0053A902 /* IanJ.png */,
+				2A6CD8E91FCBD8FE0053A902 /* CJK.png */,
+				2A6CD8EC1FCBD8FE0053A902 /* AlexS.png */,
+				2A6CD8EB1FCBD8FE0053A902 /* PatO.png */,
+				2A6CD8EA1FCBD8FE0053A902 /* PicCailin.jpg */,
+				2A6CD8FA1FCBDD540053A902 /* profile_icon.png */,
+				2A6CD8F81FCBDD540053A902 /* skill.png */,
+				2A6CD8F91FCBDD540053A902 /* skilletLogo.png */,
+				2A3D7AAF1FCCBF0F002529B5 /* drumstick.png */,
+				2A3D7AAC1FCCBF0E002529B5 /* fish.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9AE5EC4C1FCD2344002BBEB5 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				2A3D7AB51FCCC5E7002529B5 /* vote.png */,
+				2A3D7AB71FCCC5E7002529B5 /* pasta.png */,
+				2A3D7ABB1FCCCB85002529B5 /* PastawithClam.png */,
+				2A3D7AB61FCCC5E7002529B5 /* vote_iconBIG.png */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5569911FBE7E0C009E0541 /* Skillet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5569A71FBE7E0C009E0541 /* Build configuration list for PBXNativeTarget "Skillet" */;
+			buildPhases = (
+				2A55698E1FBE7E0C009E0541 /* Sources */,
+				2A55698F1FBE7E0C009E0541 /* Frameworks */,
+				2A5569901FBE7E0C009E0541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skillet;
+			productName = Skillet;
+			productReference = 2A5569921FBE7E0C009E0541 /* Skillet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A55698A1FBE7E0C009E0541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = 4CookingDummies;
+				TargetAttributes = {
+					2A5569911FBE7E0C009E0541 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A55698D1FBE7E0C009E0541 /* Build configuration list for PBXProject "Skillet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A5569891FBE7E0C009E0541;
+			productRefGroup = 2A5569931FBE7E0C009E0541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5569911FBE7E0C009E0541 /* Skillet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5569901FBE7E0C009E0541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6CD8ED1FCBD8FE0053A902 /* ClareY.png in Resources */,
+				9A095EB31FCE944F001F9BC1 /* bob.jpg in Resources */,
+				2A3D7AB41FCCBF0F002529B5 /* drumstick.png in Resources */,
+				9AE5EC601FCD23D9002BBEB5 /* vote.png in Resources */,
+				9AAED32A1FCE822C0036D7BA /* cjBig.png in Resources */,
+				2A5569A31FBE7E0C009E0541 /* LaunchScreen.storyboard in Resources */,
+				9AE5EC5E1FCD23D9002BBEB5 /* sliders.png in Resources */,
+				2A6CD8F21FCBD8FE0053A902 /* CailinC.png in Resources */,
+				2A6CD8F51FCBD8FE0053A902 /* PicCailin.jpg in Resources */,
+				9A095EC11FCE95E1001F9BC1 /* patBig.png in Resources */,
+				9AE5EC641FCD23D9002BBEB5 /* Sushi.png in Resources */,
+				9AAED3321FCE83270036D7BA /* joeB.png in Resources */,
+				2A6CD8F41FCBD8FE0053A902 /* CJK.png in Resources */,
+				9A095EBC1FCE95E1001F9BC1 /* clareBig.png in Resources */,
+				9A309C0D1FCD017900B8AC20 /* PizzaSupreme.png in Resources */,
+				9A095EB21FCE944F001F9BC1 /* Steak.jpg in Resources */,
+				9A095EBE1FCE95E1001F9BC1 /* bobBig.png in Resources */,
+				9A4755A41FCE6CD600F288A0 /* votetab.png in Resources */,
+				9AE5EC611FCD23D9002BBEB5 /* veggiePasta.png in Resources */,
+				2A6CD8FD1FCBDD550053A902 /* skilletLogo.png in Resources */,
+				9A095EB11FCE944F001F9BC1 /* Teriyaki-Chicken-Recipe.jpg in Resources */,
+				9A095EBD1FCE95E1001F9BC1 /* ianBig.png in Resources */,
+				9A095EA81FCE944F001F9BC1 /* jill.jpg in Resources */,
+				9AE5EC661FCD2427002BBEB5 /* vote.png in Resources */,
+				9A095EC51FCE9685001F9BC1 /* Settings.png in Resources */,
+				9A095EBF1FCE95E1001F9BC1 /* alexBig.png in Resources */,
+				9A095EC71FCE9873001F9BC1 /* settingicon.png in Resources */,
+				2A5569A01FBE7E0C009E0541 /* Assets.xcassets in Resources */,
+				9A309C0C1FCD017900B8AC20 /* PizzaBarbeque.png in Resources */,
+				9A095EA71FCE944F001F9BC1 /* redpan.jpg in Resources */,
+				9AE5EC5A1FCD23D9002BBEB5 /* vote_iconBIG.png in Resources */,
+				2A6CD8FC1FCBDD550053A902 /* skill.png in Resources */,
+				2A6CD8F61FCBD8FE0053A902 /* PatO.png in Resources */,
+				2A3D7AB11FCCBF0F002529B5 /* fish.png in Resources */,
+				9AE5EC5F1FCD23D9002BBEB5 /* pasta.png in Resources */,
+				9A095EC21FCE95E1001F9BC1 /* maxBig.png in Resources */,
+				9AE5EC5D1FCD23D9002BBEB5 /* PastawithClam.png in Resources */,
+				2A6CD8F71FCBD8FE0053A902 /* AlexS.png in Resources */,
+				9AE5EC5C1FCD23D9002BBEB5 /* bit.png in Resources */,
+				2A6CD8FE1FCBDD550053A902 /* profile_icon.png in Resources */,
+				9A095EC31FCE95E1001F9BC1 /* caillinBig.png in Resources */,
+				9A095EC01FCE95E1001F9BC1 /* joeBig.png in Resources */,
+				2A55699B1FBE7E0C009E0541 /* Main.storyboard in Resources */,
+				2A6CD8EE1FCBD8FE0053A902 /* MaxK.png in Resources */,
+				9A095EAF1FCE944F001F9BC1 /* raw_chicken.jpg in Resources */,
+				9A095EAC1FCE944F001F9BC1 /* Teriyaki-Sauce.jpg in Resources */,
+				2A6CD8F01FCBD8FE0053A902 /* IanJ.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A55698E1FBE7E0C009E0541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A14DE421FCFBF4100BAB885 /* CameraViewController.swift in Sources */,
+				2A14DE441FCFBF5900BAB885 /* CaptureViewController.swift in Sources */,
+				9AAED31E1FCE7F4E0036D7BA /* LoginViewController.swift in Sources */,
+				9AE5EC4E1FCD2358002BBEB5 /* VoterTableViewController.swift in Sources */,
+				9AAED3341FCE858C0036D7BA /* ProfileViewController.swift in Sources */,
+				9AFDCE861FCCADEC00BC6793 /* VoterViewController.swift in Sources */,
+				2A5569981FBE7E0C009E0541 /* ViewController.swift in Sources */,
+				9AE5EC4D1FCD2356002BBEB5 /* VoterTableViewCell.swift in Sources */,
+				2A55699E1FBE7E0C009E0541 /* Skillet.xcdatamodeld in Sources */,
+				2A6CD8B11FCBD55B0053A902 /* ChallengeViewController.swift in Sources */,
+				2A5569961FBE7E0C009E0541 /* AppDelegate.swift in Sources */,
+				9AE5EC321FCD1D2F002BBEB5 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A5569991FBE7E0C009E0541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A55699A1FBE7E0C009E0541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A5569A11FBE7E0C009E0541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A5569A21FBE7E0C009E0541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A5569A51FBE7E0C009E0541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A5569A61FBE7E0C009E0541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5569A81FBE7E0C009E0541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YX95TBH76;
+				INFOPLIST_FILE = Skillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HighFi.Skillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A5569A91FBE7E0C009E0541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3YX95TBH76;
+				INFOPLIST_FILE = Skillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HighFi.Skillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A55698D1FBE7E0C009E0541 /* Build configuration list for PBXProject "Skillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5569A51FBE7E0C009E0541 /* Debug */,
+				2A5569A61FBE7E0C009E0541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5569A71FBE7E0C009E0541 /* Build configuration list for PBXNativeTarget "Skillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5569A81FBE7E0C009E0541 /* Debug */,
+				2A5569A91FBE7E0C009E0541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A55699C1FBE7E0C009E0541 /* Skillet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A55699D1FBE7E0C009E0541 /* Skillet.xcdatamodel */,
+			);
+			currentVersion = 2A55699D1FBE7E0C009E0541 /* Skillet.xcdatamodel */;
+			path = Skillet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A55698A1FBE7E0C009E0541 /* Project object */;
+}
